@@ -1,0 +1,20 @@
+body {
+  background: #393939;
+  * {
+    user-select: none;
+  }
+}
+
+#viewport {
+  position: relative;
+  width: 1169px;
+  height: 853px;
+}
+
+.zone {
+  border: 1px solid red;
+  background: yellow;
+  opacity: 0.3;
+  position: absolute;
+  cursor: pointer;
+}
